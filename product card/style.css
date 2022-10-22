@@ -7,20 +7,29 @@
  }
 
  body{
+
  	background-color: #f2ebe3;
  	font-size: 0.85em;
-    
+ 	overflow-y: auto;
+ 	height: 100vh;
+ 	padding-bottom:1em;
+
  }
 main{
+	position: relative;
 	width: 100%;
-	height: 97vh;
+	height: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	overflow-y: hidden;
+	
 	
 }
  .card-product{
+ 	margin-top: 0.5em;
  	position: relative;
+ 	overflow-y: auto;
  	border-radius: 1em;
     display: flex;
  	max-width: 45em;
@@ -114,11 +123,65 @@ p{
 	background-color: #1c3b30;
 }
 
-.button img{
- margin-right: 1em;
-}
- .attribution { font-size: 11px; text-align: center; }
+
+ .attribution { margin-bottom: 3em;
+ 	
+ 	align-items: end;
+ 	font-size: 11px; text-align: center; }
     .attribution a { color:#3e52a3; }
+
+header{
+	z-index: 2;
+	width: 100%;
+	height: 3em;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	background-color: #3c8067;
+	margin-bottom: 0.5em
+
+}
+.carrito{
+	border-style: none;
+	 background-color: #3c8067;
+	 width: 4em;
+	 height: 100%;
+     position: relative;
+     margin-right:1em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.carrito:hover{
+	background-color: #1c3b30;
+	transform: scale(1.1)
+}
+.carrito img{
+	max-width: 100%;
+	height: 70%;
+
+	
+}
+.invisible{
+	visibility: hidden;
+}
+.notificacion{
+
+   	background-color: #d00;
+   height: 1.5em;
+   width: 1.5em;
+   border-radius: 0.8em;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
 
 
 @media (max-width: 768px) {
