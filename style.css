@@ -142,7 +142,7 @@ header{
 
 }
 .carrito{
-	border-style: none;
+	 border-style: none;
 	 background-color: #3c8067;
 	 width: 4em;
 	 height: 100%;
@@ -167,7 +167,7 @@ header{
 	visibility: hidden;
 }
 .notificacion{
-
+ 
    	background-color: #d00;
    height: 1.5em;
    width: 1.5em;
@@ -181,6 +181,34 @@ header{
    align-items: center;
 }
 
+.barra{
+	border-style: none;
+	position: absolute;
+	top: 3em;
+	right: 0;
+	height: 13em;
+	width: 17em;
+	border-radius: 1em;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family:'Montserrat',sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+
+
+}
+.barra span{
+	padding: 2em;
+    
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 
 
