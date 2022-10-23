@@ -27,7 +27,7 @@ main{
 	
 }
  .card-product{
- 
+
  	margin-top: 0.5em;
  	position: relative;
  	overflow-y: auto;
@@ -124,7 +124,9 @@ p{
 	background-color: #1c3b30;
 }
 
-
+.button img{
+	margin-right: 1em;
+}
  .attribution { margin-bottom: 3em;
  	
  	align-items: end;
